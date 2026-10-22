@@ -1,3 +1,4 @@
+
 name: Node.js CI-CD Pipeline
 
 on:
@@ -44,7 +45,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Build and Push Docker Image
+      - name: Build and Push Image
         uses: docker/build-push-action@v6
         with:
           context: .

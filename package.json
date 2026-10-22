@@ -1,0 +1,14 @@
+
+{
+  "name": "nodejs-demo-app",
+  "version": "1.0.0",
+  "description": "Node.js application with GitHub Actions CI/CD and Docker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
